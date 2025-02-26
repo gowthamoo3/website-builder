@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from 'react'
 import { AddNewBtn } from "./AddNewBtn";
-import { Row } from "./row";
+import { Row } from "./Row";
 import { CustomEvents } from "../Constants";
 import { OpenPopup } from "../Interfaces";
 import { Column } from "./Column";
@@ -15,12 +15,12 @@ const DynamicGrid: React.FC = () => {
 
       console.log('useeffect triggered', grid);
   
-      window.addEventListener('rowSelected', (e)=>{
+      window.addEventListener('rowSelected', (e: any)=>{
         console.log('rowSelected event triggered',e.detail);
         addColumn(e.detail.rowIndex, parseInt(e.detail.rowType));
       });
 
-      window.addEventListener('elementSelected', (e)=>{
+      window.addEventListener('elementSelected', (e: any)=>{
         console.log('elementSelected event triggered',e.detail);
         updateElementType(e.detail.rowIndex, e.detail.colIndex, e.detail.elementType);
       });
