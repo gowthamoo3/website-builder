@@ -4,7 +4,7 @@
 
 **Steps to run in local**
 Do pnpm install (Make sure pnpm is installed follow this doc https://pnpm.io/installation)
-pnpm run dev
+Go to the root path of the directory and run pnpm run dev
 
 **Video**:- https://drive.google.com/file/d/1MFx9wZKKzUwyB2PtogFkSK7PC6m5Rls_/view?usp=sharing
 
