@@ -1,16 +1,17 @@
-Site hosted URL https://website-builder-gowtham.netlify.app/
 
-Steps to run in local
+**Site hosted URL** https://website-builder-gowtham.netlify.app/
+
+**Steps to run in local**
 Do pnpm install (Make sure pnpm is installed follow this doc https://pnpm.io/installation)
 pnpm run dev
 
-Video:- https://drive.google.com/file/d/1MFx9wZKKzUwyB2PtogFkSK7PC6m5Rls_/view?usp=sharing
+**Video**:- https://drive.google.com/file/d/1MFx9wZKKzUwyB2PtogFkSK7PC6m5Rls_/view?usp=sharing
 
 Framework:- React
 Programming Language:- Typescript
 CSS: Tailwind
 
-Functionalities covered
+**Functionalities covered**
 User will be able to add n number of rows and upto 5 columns
 Input fields supported -> Heading , Bullet list and image
  
